@@ -44,6 +44,6 @@ public class Peliculas {
 	@Column(name="GENERO", columnDefinition ="NVARCHAR2(100)", nullable = false )
 	private String genero;
 	
-	@Column (name = "PRECIO", columnDefinition = "FLOAT", nullable = true)
+	@Column (name = "PRECIO", columnDefinition = "NUMBER", nullable = true)
 	private Float precio;
 }
