@@ -47,3 +47,9 @@ public class Peliculas {
 	@Column (name = "PRECIO", columnDefinition = "NUMBER", nullable = true)
 	private Float precio;
 }
+
+
+
+
+
+
